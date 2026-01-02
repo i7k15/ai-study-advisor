@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { StudyMode, ChatMessage, FilePart, OnboardingStep, UserProfile, DetailLevel, ThemeMode } from './types';
 import { MODES_CONFIG, TRANSLATIONS } from './constants';
-import { generateStudyResponse } from './services/geminiService';
+import { generateStudyResponse } from "./src/services/geminiService";
 import { 
   BookOpen, 
   MessageSquare, 
